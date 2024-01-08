@@ -63,7 +63,7 @@ export const BaseScreen = ({ children, bottom, head, sx }: IScreenParams) => {
           width: "100%",
           display: "flex",
           flexDirection: "row",
-          paddingBottom: "env(safe-area-inset-bottom)",
+          // paddingBottom: "env(safe-area-inset-bottom)",
           position: "fixed",
           bottom: 0,
         }}
