@@ -7,7 +7,7 @@ interface TransactionIconsProps {
 
 export const TransactionIcons: React.FC<TransactionIconsProps> = ({ type, url }) => {
   const iconFileName = type.toLowerCase().replace(/\s/g, "_");
-  const iconPath = url ? url : "/src/assets/icons/Transaction/" + iconFileName + "_icon.svg";
+  const iconPath = url ? url : "/icons/Transaction/" + iconFileName + "_icon.svg";
 
   return (
     <Box display="flex" justifyContent="center" alignItems="center">
