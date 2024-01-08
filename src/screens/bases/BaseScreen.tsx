@@ -66,6 +66,7 @@ export const BaseScreen = ({ children, bottom, head, sx }: IScreenParams) => {
           // paddingBottom: "env(safe-area-inset-bottom)",
           position: "fixed",
           bottom: 0,
+          zIndex: 8
         }}
       >
         {bottom}
