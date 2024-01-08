@@ -18,7 +18,7 @@ export const BaseScreen = ({ children, bottom, head, sx }: IScreenParams) => {
   // if (bottom) rows.push("max-content");
 
   return (
-    <Box display="flex" flexDirection="column">
+    <Box display="flex" flexDirection="column" sx={{pb: 4}}>
       <AppBar
         position="fixed"
         sx={{
